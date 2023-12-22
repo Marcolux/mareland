@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACtB,WAAW,EAAE,iBAAiB;EAC9B,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,kBAAkB;CACzB",
+    "sources": [
+        "coming-soon.scss"
+    ],
+    "names": [],
+    "file": "coming-soon.css"
+}
