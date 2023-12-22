@@ -1,6 +1,5 @@
 
 coming-soon-page {
-	// background-color: #5ab378;
 	border: none;
 	padding: 0;
 	display: flex;
@@ -12,7 +11,6 @@ coming-soon-page {
 	.coming-soon-container {
 		font-family: Arial, sans-serif;
 		text-align: center;
-		padding: 20px;
 		color: #0d0e0d !important;
 		align-self: center ;
 		justify-self: center;
@@ -23,12 +21,9 @@ coming-soon-page {
 		}
 
 		img.logoComingSoon{
-			width: 380px;
-			// height: 380px;
+			width: 280px;
 			animation: rotate 20s linear infinite;
 		}
-
-		  
 	}
 	.dots-loading {
 		display: flex;

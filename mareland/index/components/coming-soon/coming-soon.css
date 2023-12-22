@@ -16,7 +16,6 @@ coming-soon-page {
 coming-soon-page .coming-soon-container {
   font-family: Arial, sans-serif;
   text-align: center;
-  padding: 20px;
   color: #0d0e0d !important;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -31,7 +30,7 @@ coming-soon-page .coming-soon-container .comingSoonTitle {
 }
 
 coming-soon-page .coming-soon-container img.logoComingSoon {
-  width: 380px;
+  width: 280px;
   -webkit-animation: rotate 20s linear infinite;
           animation: rotate 20s linear infinite;
 }
