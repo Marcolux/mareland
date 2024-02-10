@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Ledger';
+  src: url("./fonts/ledger/Ledger-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("./fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Prata';
+  src: url("./fonts/Prata/Prata-Regular.ttf");
+}
+
+.fontSize20 {
+  font-size: 20px !important;
+}
+
+.fontSize18 {
+  font-size: 18px !important;
+}
+
+.fontSize17 {
+  font-size: 17px !important;
+}
+
+.fontSize16 {
+  font-size: 16px !important;
+}
+
+.fontSize15 {
+  font-size: 15px !important;
+}
+
+.fontSize14 {
+  font-size: 14px !important;
+}
+
+.fontSize13 {
+  font-size: 13px !important;
+}
+
+.fontSize12 {
+  font-size: 12px !important;
+}
+
+.textWhite {
+  color: #fff !important;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=common-style.css.map */
