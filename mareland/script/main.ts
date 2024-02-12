@@ -14,7 +14,8 @@ hambMenu.addEventListener('click', function() {
 })
 
 const navBarAdjToScreen = () => {
-    if (window.innerWidth < 505) {
+    console.log('here')
+    if (window.innerWidth < 505 && navBar.classList.contains('biggerScreen')) {
         navBar.classList.add('mobileView')
         navBar.classList.remove('biggerScreen')
         spanToBreak.forEach(el => {
@@ -23,7 +24,7 @@ const navBarAdjToScreen = () => {
                 el.prepend(brEl)
             }
         })
-    } else {
+    } else if (window.innerWidth >= 505 && !navBar.classList.contains('biggerScreen')) {
         navBar.classList.remove('mobileView')
         navBar.classList.add('biggerScreen')
         spanToBreak.forEach(el => {
@@ -33,11 +34,6 @@ const navBarAdjToScreen = () => {
         })
     }
 }
-const selector = document.getElementById('rclmtnPicSelector') as HTMLDivElement
-const display = document.getElementById('rclmtnBigPic') as HTMLDivElement
-const allTheBigPic = display.querySelectorAll('.bigPicShow') as NodeListOf<HTMLImageElement>
-const allTheSmPic = selector.querySelectorAll('.smPicSelector') as NodeListOf<HTMLImageElement>
-
 const carouselLogic = (selector,display) => {
     selector.forEach((smPic, index) => {
 
@@ -93,7 +89,18 @@ const carouselLogic = (selector,display) => {
 
 }
 
-carouselLogic([...allTheSmPic],[...allTheBigPic])
+const selector = document.getElementById('rclmtnPicSelector') as HTMLDivElement
+const display = document.getElementById('rclmtnBigPic') as HTMLDivElement
+
+if (display && selector) {
+    const allTheBigPic = display.querySelectorAll('.bigPicShow') as NodeListOf<HTMLImageElement>
+    const allTheSmPic = selector.querySelectorAll('.smPicSelector') as NodeListOf<HTMLImageElement>
+    carouselLogic([...allTheSmPic],[...allTheBigPic])
+} 
+
+
+
+
 window.addEventListener('resize',navBarAdjToScreen)
 navBarAdjToScreen()
-console.log("tsc running 9")
+console.log("tsc running 10")

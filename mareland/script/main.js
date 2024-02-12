@@ -21,7 +21,8 @@ hambMenu.addEventListener('click', function () {
     navBar.classList.toggle('expand');
 });
 var navBarAdjToScreen = function () {
-    if (window.innerWidth < 505) {
+    console.log('here');
+    if (window.innerWidth < 505 && navBar.classList.contains('biggerScreen')) {
         navBar.classList.add('mobileView');
         navBar.classList.remove('biggerScreen');
         spanToBreak.forEach(function (el) {
@@ -31,7 +32,7 @@ var navBarAdjToScreen = function () {
             }
         });
     }
-    else {
+    else if (window.innerWidth >= 505 && !navBar.classList.contains('biggerScreen')) {
         navBar.classList.remove('mobileView');
         navBar.classList.add('biggerScreen');
         spanToBreak.forEach(function (el) {
@@ -41,10 +42,6 @@ var navBarAdjToScreen = function () {
         });
     }
 };
-var selector = document.getElementById('rclmtnPicSelector');
-var display = document.getElementById('rclmtnBigPic');
-var allTheBigPic = display.querySelectorAll('.bigPicShow');
-var allTheSmPic = selector.querySelectorAll('.smPicSelector');
 var carouselLogic = function (selector, display) {
     selector.forEach(function (smPic, index) {
         smPic.addEventListener('click', function () {
@@ -93,7 +90,13 @@ var carouselLogic = function (selector, display) {
         }
     }
 };
-carouselLogic(__spreadArray([], allTheSmPic, true), __spreadArray([], allTheBigPic, true));
+var selector = document.getElementById('rclmtnPicSelector');
+var display = document.getElementById('rclmtnBigPic');
+if (display && selector) {
+    var allTheBigPic = display.querySelectorAll('.bigPicShow');
+    var allTheSmPic = selector.querySelectorAll('.smPicSelector');
+    carouselLogic(__spreadArray([], allTheSmPic, true), __spreadArray([], allTheBigPic, true));
+}
 window.addEventListener('resize', navBarAdjToScreen);
 navBarAdjToScreen();
-console.log("tsc running 9");
+console.log("tsc running 10");

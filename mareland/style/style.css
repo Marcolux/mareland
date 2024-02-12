@@ -412,9 +412,9 @@ iframe {
 }
 
 #marelandSect > div#marelandCont #leftTxt .barSep {
-  width: 1.5vw;
+  width: 10px;
   min-height: 300px;
-  height: 50vh;
+  height: 45vh;
   background-color: #CDAA7F;
 }
 
@@ -673,6 +673,16 @@ footer img {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  text-decoration: none;
+}
+
+.buttonLanding:hover {
+  color: #CDAA7F !important;
+  text-decoration: none !important;
+}
+
+a#logoNav::before {
+  display: none !important;
 }
 
 @media only screen and (max-width: 1560px) {
