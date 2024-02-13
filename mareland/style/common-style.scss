@@ -46,9 +46,6 @@
 .show {
     display: flex;
 }
-.fr{}
-
-
 
 /* Margin and padding: Breakpoints */
 @each $classlabel, $mediaquery in $breakpointmap {
