@@ -4,7 +4,7 @@ body {
 	padding: 0;
 	height: 100vh;
 	box-sizing: border-box; /* This ensures that padding and border are included in the total width and height */
-	font-family: 'Ledger';
+	font-family: 'Prata';
 	min-width: 380px;
 }
 iframe{
@@ -229,10 +229,6 @@ iframe{
 	}
 }
 
-// 
-.col-12{
-	padding: 0px !important;
-}
 #landingSec{
 	display: flex;
 	flex-direction: column;
@@ -333,7 +329,7 @@ section#rclmtnSect{
 	background-color: #E3D7C84D;
 	border-top: 2px solid #CDAA7F;
 	width: 100%;
-	height: 80vh;
+	height: auto;
 	display: flex;
 	justify-content: center;
 	padding-top: 40px;
@@ -348,27 +344,27 @@ section#rclmtnSect{
 		height: 100%;
 		div#rclmtnPicsSide{
 			padding: 20px;
-			width: 50%;
+			width: 45%;
 			height: 100%;
 			display: flex;
+			align-items: center;
 			flex-direction: column;
 			justify-content: space-around;
 			div#rclmtnBigPic{
-				height: 80%;
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				img{
-					width: 100%;
-					height: 100%;
+					width: 90%;
+					max-height: 80vh;
 					object-fit: cover;
 					object-position: bottom left;
 				}
 			}
 			#rclmtnPicSelector{
-				width: 100%;
-				height: 10vh;
-				padding: 10px 10px;
+				width: 87%;
+				height: 70px;
+				padding: 5px;
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
@@ -381,10 +377,11 @@ section#rclmtnSect{
 					scroll-behavior: smooth;
 					height: 100%;
 					img{
-						padding-left: 11px;
 						object-fit: cover;
 						object-position: bottom left;
-						width: 20%;
+						&.picClicked{
+							border: 3px solid #0F4C81;
+						}
 					}
 				}
 				a{
@@ -414,13 +411,14 @@ section#rclmtnSect{
 			}
 		}
 		#rclmtnDescr{
-			width: 40%;
+			width: 50%;
 			height: 100%;
 			padding: 20px;
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			#rclmtnDescrText{
+				width: 95%;
 				p{
 					font-size: 18px !important;
 					text-align: justify;

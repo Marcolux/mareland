@@ -5,7 +5,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   /* This ensures that padding and border are included in the total width and height */
-  font-family: 'Ledger';
+  font-family: 'Prata';
   min-width: 380px;
 }
 
@@ -287,10 +287,6 @@ iframe {
   border-radius: 0;
 }
 
-.col-12 {
-  padding: 0px !important;
-}
-
 #landingSec {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -448,7 +444,7 @@ section#rclmtnSect {
   background-color: #E3D7C84D;
   border-top: 2px solid #CDAA7F;
   width: 100%;
-  height: 80vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -477,11 +473,14 @@ section#rclmtnSect div#rclmtnsCont {
 
 section#rclmtnSect div#rclmtnsCont div#rclmtnPicsSide {
   padding: 20px;
-  width: 50%;
+  width: 45%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -491,7 +490,6 @@ section#rclmtnSect div#rclmtnsCont div#rclmtnPicsSide {
 }
 
 section#rclmtnSect div#rclmtnsCont div#rclmtnPicsSide div#rclmtnBigPic {
-  height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -504,8 +502,8 @@ section#rclmtnSect div#rclmtnsCont div#rclmtnPicsSide div#rclmtnBigPic {
 }
 
 section#rclmtnSect div#rclmtnsCont div#rclmtnPicsSide div#rclmtnBigPic img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  max-height: 80vh;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: bottom left;
@@ -513,9 +511,9 @@ section#rclmtnSect div#rclmtnsCont div#rclmtnPicsSide div#rclmtnBigPic img {
 }
 
 section#rclmtnSect div#rclmtnsCont div#rclmtnPicsSide #rclmtnPicSelector {
-  width: 100%;
-  height: 10vh;
-  padding: 10px 10px;
+  width: 87%;
+  height: 70px;
+  padding: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -542,12 +540,14 @@ section#rclmtnSect div#rclmtnsCont div#rclmtnPicsSide #rclmtnPicSelector #scroll
 }
 
 section#rclmtnSect div#rclmtnsCont div#rclmtnPicsSide #rclmtnPicSelector #scroller img {
-  padding-left: 11px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: bottom left;
      object-position: bottom left;
-  width: 20%;
+}
+
+section#rclmtnSect div#rclmtnsCont div#rclmtnPicsSide #rclmtnPicSelector #scroller img.picClicked {
+  border: 3px solid #0F4C81;
 }
 
 section#rclmtnSect div#rclmtnsCont div#rclmtnPicsSide #rclmtnPicSelector a {
@@ -582,7 +582,7 @@ section#rclmtnSect div#rclmtnsCont div#rclmtnPicsSide #rclmtnPicSelector ::-webk
 }
 
 section#rclmtnSect div#rclmtnsCont #rclmtnDescr {
-  width: 40%;
+  width: 50%;
   height: 100%;
   padding: 20px;
   display: -webkit-box;
@@ -595,6 +595,10 @@ section#rclmtnSect div#rclmtnsCont #rclmtnDescr {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+section#rclmtnSect div#rclmtnsCont #rclmtnDescr #rclmtnDescrText {
+  width: 95%;
 }
 
 section#rclmtnSect div#rclmtnsCont #rclmtnDescr #rclmtnDescrText p {

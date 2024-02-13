@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,qFAAqF;AACrF,qFAAqF;AACrF,sBAAsB",
+    "sources": [
+        "margin-padding.scss"
+    ],
+    "names": [],
+    "file": "margin-padding.css"
+}

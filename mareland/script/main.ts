@@ -81,9 +81,9 @@ const carouselLogic = (selector,display) => {
         const width = selector[1].offsetWidth
         console.log(width)
         if (direction === 'right') {
-            pictureContainer.scrollLeft += width;
+            pictureContainer.scrollLeft += width + 4;
         } else {
-            pictureContainer.scrollLeft -= width - 2;
+            pictureContainer.scrollLeft -= width - 4 ;
         }
     }
 
