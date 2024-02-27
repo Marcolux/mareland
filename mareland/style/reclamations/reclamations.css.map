@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAA;EAChB,UAAU,EAAE,MAAM;CACrB;;AACD,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EACpC,AAAA,oBAAoB,CAAA;IAChB,UAAU,EAAE,cAAc;GAC7B",
+    "sources": [
+        "reclamations.scss"
+    ],
+    "names": [],
+    "file": "reclamations.css"
+}

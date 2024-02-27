@@ -1,0 +1,123 @@
+#mainMareland{
+    background-color: #ebe4dc;
+    margin-top: 13.3vh !important;
+    .sctnHpTitles{font-family: 'Prata'}
+    #MarelandPageSec{
+        background-color: #ffffffb0;
+        border: 2px solid #CDAA7F;
+        align-self: center;
+        .marelandPicTextSec{
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            img{
+                aspect-ratio: 1/1;
+                object-fit: cover;
+                object-position: center;
+                &.logoPic{
+                    max-width: 200px !important;
+                }
+            }
+            p{
+                text-align: justify;
+                text-justify: newspaper;
+            }
+            &#wikiPic{
+                img{
+                    max-height: 320px;
+                }
+                sub{
+                    text-align: justify;
+                    text-justify: newspaper;
+                    word-wrap: break-word;
+                }
+            }
+        }
+        img.bannersPic{
+            width: 100% !important;
+            max-height: 250px;
+            aspect-ratio: 2/1;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #MarelandPageSec{
+        .marelandPicTextSec{
+            flex-direction: column !important;
+            &#wikiPic{
+                img{
+                    width: 100% !important;
+                    max-width: 100% !important;
+                    max-height: 50vh !important;
+                    margin-left: 0px !important;
+                    margin-top: 20px;
+                }
+            }
+            img{
+                width: auto !important;
+                aspect-ratio: 1/1;
+                object-fit: cover;
+                margin: 0px;
+            }
+            p{
+                width: 100% !important;
+            }
+        }
+        // .bottomInfo{
+        //     width: 100% !important;
+        //     display: flex;
+        //     align-items: center;
+        //     margin-left: 20px !important;
+        //     margin-top: 20px !important;
+        //     >p{
+        //         margin: 0px !important;
+        //         padding-left: 20px !important;
+        //         width: 100% !important;
+        //         text-align: start;
+        //     }
+        //     :last-child{
+        //         width: 0% !important;
+        //     }
+        // }
+    }
+}
+@media only screen and (max-width: 700px) {
+    #mainMareland{
+        margin-top: 0vh !important;
+        padding: 0px !important;
+        #MarelandPageSec{
+            background-color: #ffffffb0;
+            border: none !important;
+            margin-top: 0px !important;
+            .sctnHpTitles {
+                margin-right: 5px !important;
+            }
+            .marelandPicTextSec{
+                flex-direction: column !important;
+                div{
+                    width: 100% !important;
+                }
+                &#wikiPic{
+                    img{
+                        width: 100% !important;
+                        margin: 10px !important;
+                    }
+                }
+                p{
+                    padding: 20px 0px !important;
+                    width: 100% !important;
+                    text-align: start !important;
+                    letter-spacing: 0px;
+                }
+
+            }
+            .bottomInfo{
+                p{
+                    padding: 0px !important;
+                }
+            }
+        }
+    }
+}

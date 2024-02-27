@@ -1,106 +1,160 @@
-
 <!DOCTYPE html>
 <html lang="en" >
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MaReLand">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="MaReLand">
 
-    <!-- Style -->
-    <link rel="stylesheet" type="text/css" href="../style/style.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../style/settings.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../style/common-style.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="./components/coming-soon/coming-soon.css" media="screen" />
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="../style/settings/settings.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="../style/settings/layout.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="../style/settings/fonts-sizing.css" media="screen" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="../style/homepage/style.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="../style/common_style/common-style.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="../style/mareland/mareland.css" media="screen" />
+        <!-- <link rel="stylesheet" type="text/css" href="../style/about/about.css" media="screen" /> -->
+        <!-- <link rel="stylesheet" type="text/css" href="./components/coming-soon/coming-soon.css" media="screen" /> -->
 
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-    <!-- Logo -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/mareland/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/mareland/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/mareland/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/mareland/images/favicon/site.webmanifest">
-    
-    <!-- Title -->
-    <title>MaReLand</title>
-</head>
-
-<body>
-    <nav class="navBar flex biggerScreen">
-        <div id="navBgScn">
-            <a href="../../homePage.html" id="logoNav">
-                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_bgremoval,o_100,q_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
-            </a>
-            <a href="./about-page.html">About</a>
-            <a href="./mareland-page.html">Mareland</a>
-            <a href="./reclamations-page.html">Reclamations</a>
-        </div>
+        <!-- Logo -->
+        <link rel="icon" type="ico" sizes="32x32" href="/mareland/images/favicon/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/mareland/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/mareland/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/mareland/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/mareland/images/favicon/site.webmanifest">
         
-        <div class="hambContainer">
-            <div class="hamburger-menu">
-                <div class="bar" id="bar1"></div>
-                <div class="bar" id="bar2"></div>
-                <div class="bar" id="bar3"></div>
+        <!-- Title -->
+        <title>MaReLand</title>
+    </head>
+
+    <body>
+        <nav class="navBar flex biggerScreen">
+            <div id="navBgScn">
+                <a href="../../homePage.html" class="logoNav">
+                    <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto,e_bgremoval,o_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
+                </a>
+                <a href="./about-page.html">About</a>
+                <a class="textSand" href="./mareland-page.html">MaReLand</a>
+                <a href="./reclamations-page.html">Reclamations</a>
             </div>
-        </div>
-    
-        <div id="navMenu" class="hide pl-3 pr-4">
-            <a href="../../homePage.html" id="logoNav">
-                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_bgremoval,o_100,q_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
-            </a>
-            <a href="./about-page.html">About</a>
-            <a href="./mareland-page.html">Mareland</a>
-            <a href="./reclamations-page.html">Reclamations</a>
-        </div>
+            
+            <div class="hambContainer">
+                <div class="hamburger-menu">
+                    <div class="bar" id="bar1"></div>
+                    <div class="bar" id="bar2"></div>
+                    <div class="bar" id="bar3"></div>
+                </div>
+            </div>
         
-    </nav>
-
-    <section id="MarelandPageSec" class="col-12">
-       
-        <div class="" id="">
-            Mareland Page
-        </div>
-    </section>
-
-
-
-    <footer>
-        <div class="flex flex-column">
-            <div id="logoFooter" class=" flex">
-                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1707521857/EN_FundedbytheEU_RGB_WHITE_Outline_1_g2kefz.png" alt="EU Logo">
-                <p class="textWhite">Funded by the European Union. Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.</p>
-                <img id="olomouc" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1707521867/Uni_white_logo_360_x_100_px_1_lqqtvt.png" alt="Uni Logo">
+            <div id="navMenu" class="hide pl-3 pr-4">
+                <a href="../../homePage.html" class="logoNav">
+                    <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto,e_bgremoval,o_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
+                </a>
+                <a href="./about-page.html">About</a>
+                <a href="./mareland-page.html">MaReLand</a>
+                <a href="./reclamations-page.html">Reclamations</a>
             </div>
-            <p class="fontSize13 textWhite"> Website created and designed by Marco Colucci</p>
+            
+        </nav>
+        <main class="flex flex-justifyContent-center mt-40 p-25" id="mainMareland">
+            <section id="MarelandPageSec" class="px-30 py-30 col-10">
+    
+                <div class="flex flex-column flex-justifyContent-center flex-alignItems-center col-12">
+    
+                    <div class="marelandPicTextSec flex col-12" id="">
+                        <p class="py-20 pl-20 fontSize18  my-0">
+                            <span class="sctnHpTitles fontSize25 text-bold">MaReLand</span> is the acronym of the EU-funded project “Malaysian Reclaimed Landscapes:
+                            Urbanization, Heritage, and Sustainability along the Littoral” hosted by Palacký University
+                            Olomouc, Czech Republic. The acronym MaReLand itself challenges sharp divides such as
+                            land/sea, nature/society, or cultural/natural and tangible/intangible heritage. It ties together two
+                            words, commonly understood as distinct “worlds”: the Latin word for sea, <span class="text-italic">mare</span>, and the English
+                            word <span class="text-italic">land</span>. This acronym is even more relevant for Malaysia because it recalls the Malay compound
+                            <span class="text-italic">tanah air</span>, “land (and) water”, for homeland. Most societies in the world use land-biased words for
+                            homeland. The <span class="text-italic">tanah air</span> compound recalls a much more fluid history of interconnections, from the
+                            thalassocracies and cosmopolitan centers of the Malay archipelago to the contemporary legacies of this littoral
+                            society.
+                        </p>
+                        <div class="flex flex-column flex-alignItems-center pl-35 pr-20" style="float:inline-end;">
+                            <img class="flex flex-justifyContent-center logoPic" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1708114993/whiteRoundLogo_4_vfmgvy.png" alt="MaReLand Logo By Rossella De Giosa 2023">
+                            <sub class="mt-15">MaReLand Logo © Rossella De Giosa 2023</sub>      
+                        </div>
+                    </div>
+    
+                    <div class="marelandPicTextSec flex flex-column" id="wikiPic">
+                        <p class="p-20 fontSize18 my-0">
+                            MaReLand is an interdisciplinary project and ethnographic study of land reclamation along the
+                            Malaysian littoral. Reclamation is the act of creating new land and artificial islands from the sea.
+                            The approach that the state and developers are taking is reminiscent of neo-colonial and neoliberal
+                            conceptions of the <span class="text-italic">mare nullius</span> (“nobody’s sea”), an empty space to be transformed by large-scale
+                            construction projects. Many are concerned about the socio-ecological effects for the environment
+                            and coastal communities. On the one hand, reclaimed landscapes are being planned for the
+                            development of high-tech fantasies of a luxurious lifestyle in a greener and smarter environment.
+                            On the other hand, such projects are intended to transform spaces that nevertheless represent
+                            enduring heritage such as fisheries, seascapes and biodiversity. Reclaimed landscapes thus emerge
+                            as contested spaces where what is not considered heritage becomes attractive for development.
+                        </p>
+                        <div class="flex flex-column col-11 flex-alignItems-center p-20" style="max-width: 1000px;">
+                            <img class="col-12" src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Silicon_Island%2C_George_Town%2C_Penang_2023.jpg" alt="MaReLand Wiki Image ">
+                            <sub class="mt-15">Drone photo of Silicon Island, a man-made islet under construction in George Town. Rimau Island
+                                can be seen in the background; Wikimedia Commons user HundenvonPenang
+                                (<a href="https://commons.wikimedia.org/wiki/File:Silicon_Island,_George_Town,_Penang_2023.jpg">Link</a>), 11
+                                December 2023; image reproduced under the Creative Commons Attribution-Share Alike 4.0
+                                International.</sub>
+                        </div>
+                    </div>
 
-        </div>
-    </footer>
+                    <div class="marelandPicTextSec flex col-12" id="wikiPic">
+                        <p class="p-20 fontSize18 my-0 ">
+                            MaReLand explores the competing discourses of sustainability and heritage held by a variety of
+                            actors. Situated at the intersection of urban anthropology, critical heritage studies and
+                            marine/coastal research, the project explores environmental activism, critiques of heritage
+                            hierarchies, urbanisation at sea, and compensation policies for yet-to-be-built (is)lands to enhance
+                            understanding of the right to the sea.
+                        </p>
+                    </div>
+                    
+                    <div class="col-12 flex flex-alignItems-center flex-justifyContent-start bottomInfo">
+                        <p class="m-0 pl-20">
+                            Funded by the EU under the Marie Skłodowska-Curie Actions (MSCA)
+                            <br>Grant Agreement ID: 101062825
+                            <br>DOI: 10.3030/101062825
+                            <br><a href="https://cordis.europa.eu/project/id/101062825" target="_blank">Project link</a>
+                        </p>
+                        <!-- <div class="flex flex-column flex-alignItems-center px-20 col-6" style="float: right;">
+                            <img class="bannersPic" src="https://res.cloudinary.com/drdrs6pdq/image/upload/c_scale,q_100,w_1756/v1708950051/1708870542269_jbhbwl.jpg" alt="MaReLand Banners">
+                            <sub class="mt-15">Banners against the Penang South Reclamation Project at Sungai Batu © Pierpaolo De Giosa 2023</sub>
+                        </div> -->
+                        <!-- <p class="col-3"></p> -->
+                    </div>
+                </div>
+            
+            </section>
+        </main>
+
+        <footer>
+            <div class="flex flex-column">
+                <div id="logoFooter" class="flex col-12">
+                    <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707521857/EN_FundedbytheEU_RGB_WHITE_Outline_1_g2kefz.png" alt="EU Logo">
+                    <p class="textWhite fontSize16 col-6">Funded by the European Union. Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.</p>
+                    <div class="textWhite pb-20">
+                        <img id="olomouc" class="" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1708961760/HostedByLogo_va3jrt.png" alt="Uni Logo">
+                    </div>
+                </div>
+                <p class="fontSize13 textWhite col-12 text-center"> Website created and designed by Marco Colucci</p>
+
+            </div>
+        </footer>
 
 
-      
-      
+        <!-- Script -->
+        <script defer type="text/javascript " src="../script/main.js"></script>
+        <script defer type="text/javascript " src="./components/coming-soon/coming_soon.markup.js"></script>
 
-
-
-
-
-
-    <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous ">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
-    <link rel="stylesheet " href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css ">
-    <!-- Script -->
-    <script defer type="text/javascript " src="../script/main.js"></script>
-    <script defer type="text/javascript " src="./components/coming-soon/coming_soon.markup.js"></script>
-
-</body>
+    </body>
 
 </html>

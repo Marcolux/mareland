@@ -1,6 +1,4 @@
-console.log('hello world')
-console.log('all the time')
-// import '../index/components/coming-soon/coming_soon.markup'
+
 const hambMenu = document.querySelector('.hamburger-menu') as HTMLElement
 const navMenu = document.getElementById('navMenu') as HTMLElement
 const navBar = document.querySelector('.navBar') as HTMLElement
@@ -14,7 +12,7 @@ hambMenu.addEventListener('click', function() {
 })
 
 const navBarAdjToScreen = () => {
-    console.log('here')
+    
     if (window.innerWidth < 505 && navBar.classList.contains('biggerScreen')) {
         navBar.classList.add('mobileView')
         navBar.classList.remove('biggerScreen')
@@ -79,11 +77,10 @@ const carouselLogic = (selector,display) => {
 
     function scrollByPicWidth(direction) {
         const width = selector[1].offsetWidth
-        console.log(width)
         if (direction === 'right') {
-            pictureContainer.scrollLeft += width + 4;
+            pictureContainer.scrollLeft += width
         } else {
-            pictureContainer.scrollLeft -= width - 4 ;
+            pictureContainer.scrollLeft -= width
         }
     }
 
@@ -98,9 +95,5 @@ if (display && selector) {
     carouselLogic([...allTheSmPic],[...allTheBigPic])
 } 
 
-
-
-
 window.addEventListener('resize',navBarAdjToScreen)
 navBarAdjToScreen()
-console.log("tsc running 10")

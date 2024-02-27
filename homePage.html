@@ -2,198 +2,187 @@
 <!DOCTYPE html>
 <html lang="en" >
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MaReLand">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="MaReLand">
 
-    <!-- Style -->
-    <link rel="stylesheet" type="text/css" href="./mareland/style/settings.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="./mareland/style/style.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="./mareland/style/common-style.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="./mareland/index/components/coming-soon/coming-soon.css" media="screen" />
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="./mareland/style/settings/settings.css" media="all"/>
+        <link rel="stylesheet" type="text/css" href="./mareland/style/settings/layout.css" media="all"/>
+        <link rel="stylesheet" type="text/css" href="./mareland/style/settings/fonts-sizing.css" media="all"/>
+        <link rel="stylesheet" type="text/css" href="./mareland/style/homepage/style.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="./mareland/style/common_style/common-style.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="./mareland/index/components/coming-soon/coming-soon.css" media="all" />
 
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-    
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
-
-    <!-- Logo -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/mareland/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/mareland/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/mareland/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/mareland/images/favicon/site.webmanifest">
-    
-    <!-- Title -->
-    <title>MaReLand</title>
-</head>
-
-<body>
-    <!-- <nav class="flex justify-content-around navMainIndex">
-     <a href="./mareland/index/various.html"> Various</a>
-        <a href="./mareland/index/buttons.html"> Buttons</a>
-
-    </nav> -->
-
-    <!-- <iframe src="./mareland/index/buttons.html"></iframe> -->
-    <!-- <iframe src="./mareland/index/coming-soon.html" class="bodyPart"></iframe> -->
-    <!-- <coming-soon-page></coming-soon-page> -->
-    <nav class="navBar flex biggerScreen">
-        <div id="navBgScn">
-            <a href="../../homePage.html" id="logoNav">
-                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_bgremoval,o_100,q_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
-            </a>
-            <a href="./mareland/index/about-page.html">About</a>
-            <a href="./mareland/index/mareland-page.html">Mareland</a>
-            <a href="./mareland/index/reclamations-page.html">Reclamations</a>
-        </div>
+        <!-- Bootstrap CSS -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
         
-        <div class="hambContainer">
-            <div class="hamburger-menu">
-                <div class="bar" id="bar1"></div>
-                <div class="bar" id="bar2"></div>
-                <div class="bar" id="bar3"></div>
-            </div>
-        </div>
-    
-        <div id="navMenu" class="hide pl-15 pr-20">
-            <a href="../../homePage.html" id="logoNav">
-                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_bgremoval,o_100,q_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
-            </a>
-            <a href="./mareland/index/about-page.html">About</a>
-            <a href="./mareland/index/mareland-page.html">Mareland</a>
-            <a href="./mareland/index/reclamations-page.html">Reclamations</a>
-        </div>
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" media="all">
+
+
+        <!-- Logo -->
+        <link rel="icon" type="ico" sizes="32x32" href="/mareland/images/favicon/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="/mareland/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/mareland/images/favicon/favicon-16x16.png">
+        <!-- <link rel="manifest" href="/mareland/images/favicon/site.webmanifest"> -->
         
-    </nav>
+        <!-- Title -->
+        <title>MaReLand</title>
+    </head>
 
-    <section id="landingSec" class="col-12">
-        <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707422073/MaReLand_landing_pic_fuxbcz.png" alt="Mareland Jungle view">
-        <div class="" id="lndQt">
-            <p class="fontSize22 text-bold">
-                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1707422708/Vector_quotes_mareland_gq8btw.svg" alt="Mareland Jungle view">
-                Tidak akan ada <span class="text-bold">pelaut yang hebat</span>, <span class="brSm">Tanpa adanya ambak <span class=" text-bold">yang besar</span>.</span>
-                <br> There will be no <span class=" text-bold"> great sailors</span>,<span class="brSm"> without <span class=" text-bold"> big waves</span>.</span>
-                <br ><span class="mt-5 fontSize17" style="font-weight: 400;">(litteral translation of a Malay saying. Anonymized)</span>
-            </p>
-        </div>
-    </section>
-
-    <section id="marelandSect">
-        <div id="marelandCont">
-            <div class="pl-0" id="leftTxt">
-                <div class="flex flex-column">
-                    <p class="sctnHpTitles">Mareland</p>
-                    <p class="fontSize17 col-11 p-0">MaReLand is an interdisciplinary project and ethnographic study of land reclamation along the
-                        Malaysian littoral. Reclamation is the act of creating new land and artificial islands from the sea.
-                        The approach that the state and developers are taking is reminiscent of neo-colonial and neoliberal
-                        conceptions of the mare nullius (“nobody’s sea”), an empty space to be transformed by large-scale
-                        construction projects.
-                    </p>
-                    <a href="./mareland/index/mareland-page.html" class="buttonLanding" id="marelandBtn">Learn More ...</a>
-                </div>
-                <div class="barSep"></div>
-
+    <body>
+        <nav class="navBar flex biggerScreen">
+            <div id="navBgScn">
+                <a href="" class="logoNav">
+                <!-- <a href="../alpha-mareland/homePage.html" class="logoNav"></a> -->
+                    <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto,e_bgremoval,o_100,q_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
+                </a>
+                <a href="./mareland/index/about-page.html">About</a>
+                <a href="./mareland/index/mareland-page.html">MaReLand</a>
+                <a href="./mareland/index/reclamations-page.html">Reclamations</a>
             </div>
-            <div class="pl-10 pr-0 flex align-items-center" id="picCont">
-                <div class="hlfPic pt-0 pl-0 pr-10 flex flex-column" style="height: 100%;">
-                    <img class="marelandImg1 mb-15" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707433441/MaReLand-boat-landing_bh58hu.png" alt="MaReLand Boat Landing Page">
-                    <img class="marelandImg2" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707433459/MaReLand-murales-landing_qmnaw1.png" alt="MaReLand Murales Landing Page">
-                </div>
-                <div class="hlfPic pl-10 pr-10 flex flex-column" style="height: 100%;">
-                    <img class="marelandImg2 mb-3" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707433471/MaReLand-pontile-landing_gtcl5h.png" alt="MaReLand Pontile Landing Page">
-                    <img class="marelandImg1" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707433450/MaReLand-jungle-landing_ttkujs.png" alt="MaReLand Jungle Landing Page">
+            
+            <div class="hambContainer">
+                <div class="hamburger-menu">
+                    <div class="bar" id="bar1"></div>
+                    <div class="bar" id="bar2"></div>
+                    <div class="bar" id="bar3"></div>
                 </div>
             </div>
-        </div>
-    </section>
+        
+            <div id="navMenu" class="hide pl-15 pr-20">
+                <a href="./homePage.html" class="logoNav">
+                    <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto,e_bgremoval,o_100,q_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
+                </a>
+                <a href="./mareland/index/about-page.html">About</a>
+                <a href="./mareland/index/mareland-page.html">MaReLand</a>
+                <a href="./mareland/index/reclamations-page.html">Reclamations</a>
+            </div>
+            
+        </nav>
+        <main>
 
-    <section id="rclmtnSect" class="pb-40">
-        <div id="rclmtnsCont" class="py-20 px-30">
-            <div id="rclmtnPicsSide">
-                <div id="rclmtnBigPic">
-                    <img id="pic_6" class="bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707494191/WJFI4146_gubjkk.jpg" alt="MaReLand Boat Jungle">
-                    <img id="pic_3" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707494405/MaReLand-boat-airplane-landing.png_o1ahkw.jpg" alt="MaReLand Boat Airplane">
-                    <img id="pic_2" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707494191/PHOTO-2023-08-07-11-21-01_1_bigjla.jpg" alt="MaReland Drying Fish">
-                    <img id="pic_4" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707494190/EKYD9542_nstizh.jpg" alt="MaReLand Fishermen">
-                    <img id="pic_5" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707494191/boats_pf3ya8.jpg" alt="MaReLand Boat Sunset">
-                    <img id="pic_8" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707495009/Mareland_boats_pontile_uqoa29.jpg" alt="MaReLand Boats">
-                    <img id="pic_1" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/q_100/v1707494406/MaReLand-Seppie-landing.png_rqqncg.jpg" alt="MaReLand Seppie Landing">
-                    <img id="pic_7" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707494405/MaReLand-construction-landing.png_zdckxf.jpg" alt="MaReland Construction Started">
-                </div>
-                <div id="rclmtnPicSelector" class="col-10">
-                    <a class="scroll-button left hide"><i class="fas fa-chevron-left"></i></a>
-                    <div class="p-10 col-10" id="scroller">
-                        <img id="pic_6" class="smPicSelector col-2 m-5 picClicked" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707494191/WJFI4146_gubjkk.jpg" alt="MaReLand Boat Jungle">
-                        <img id="pic_3" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707494405/MaReLand-boat-airplane-landing.png_o1ahkw.jpg" alt="MaReLand Boat Airplane">
-                        <img id="pic_2" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707494191/PHOTO-2023-08-07-11-21-01_1_bigjla.jpg" alt="MaReland Drying Fish">
-                        <img id="pic_4" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707494190/EKYD9542_nstizh.jpg" alt="MaReLand Fishermen">
-                        <img id="pic_5" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707494191/boats_pf3ya8.jpg" alt="MaReLand Boat Sunset">
-                        <img id="pic_8" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707495009/Mareland_boats_pontile_uqoa29.jpg" alt="MaReLand Boats">
-                        <img id="pic_1" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/q_100/v1707494406/MaReLand-Seppie-landing.png_rqqncg.jpg" alt="MaReLand Seppie Landing">
-                        <img id="pic_7" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_enhance/v1707494405/MaReLand-construction-landing.png_zdckxf.jpg" alt="MaReland Construction Started">
+                
+            <section id="landingSec" class="col-12">
+                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707422073/MaReLand_landing_pic_fuxbcz.png" alt="Mareland Jungle view">
+            
+                <div class="flex-column-md-down flex flex-justifyContent-spaceAround px-30 py-35 col-11" id="lndQt">
+                    
+                    <div class="flex textQt flex flex-column">
+                        <p class="fontSize35 my-0 mb-0"> Tidak akan ada <span class="textSand">pelaut yang hebat</span>, </p>
+                        <p class="fontSize35 my-0 ml-20"> Tanpa adanya <span class="textSand">ombak yang besar</span>. </p>
                     </div>
-                    <a class="scroll-button right"><i class="fas fa-chevron-right"></i></a>
+                    <div class="flex textQt qtBtm flex flex-column">
+                        <p class="fontSize35 my-0 mb-0"> There will be no <span class="textSand">great sailors</span>, </p>
+                        <p class="fontSize35 my-0 ml-20"> Without <span class="textSand">big waves</span>.</p>
+                    </div>
+        
                 </div>
-            </div>
-            <div class="barSep"></div>
-            <div id="rclmtnDescr" class="">
-                <p class="sctnHpTitles">Reclamation</p>
-                <div id="rclmtnDescrText fontSize17">
-                    <p>
-                        MaReLand explores the competing discourses of sustainability and heritage held by a variety of
-                        actors. Situated at the intersection of urban anthropology, critical heritage studies and
-                        marine/coastal research, the project explores environmental activism, critiques of heritage
-                        hierarchies, urbanisation at sea, and compensation policies fro yet-to-be-built (is)lands to enhance
-                        understanding of the right to the sea.
-                    </p>
-                    <p>
-                        Funded by the EU under the Marie Skłodowska-Curie Actions (MSCA)
-                        Grant Agreement ID: 101062825
-                        DOI: 10.3030/101062825
-                    </p>
-                    <a href="https://cordis.europa.eu/project/id/101062825" target="_blank">Project link</a>
+                
+            </section>
+        
+            <section id="marelandSect">
+                <div id="marelandCont">
+                    <div class="pl-0" id="leftTxt">
+                        <div class="flex flex-column">
+                            <p class="sctnHpTitles text-bold">MaReLand</p>
+                            <p class="fontSize17 col-11 p-0">
+                                MaReLand is the acronym of the EU-funded project “Malaysian Reclaimed Landscapes:
+                                Urbanization, Heritage, and Sustainability along the Littoral” hosted by Palacký University
+                                Olomouc, Czech Republic. The acronym MaReLand itself challenges sharp divides such as
+                                land/sea, nature/society, or cultural/natural and tangible/intangible heritage. It ties together two
+                                words, commonly understood as distinct “worlds”: the Latin word for sea, <span class="text-italic">mare</span>, and the English
+                                word <span class="text-italic">land</span>.
+                            </p>
+                            <a href="./mareland/index/mareland-page.html" class="buttonLanding" id="marelandBtn">Learn More ...</a>
+                        </div>
+                        <div class="barSep"></div>
+        
+                    </div>
+                    <div class="pl-10 pr-0 flex align-items-center" id="picCont">
+                        <div class="hlfPic pt-0 pl-0 pr-10 flex flex-column">
+                            <img class="marelandImg1 mb-15" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707433441/MaReLand-boat-landing_bh58hu.png" alt="MaReLand Boat Landing Page">
+                            <img class="marelandImg2" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707433459/MaReLand-murales-landing_qmnaw1.png" alt="MaReLand Murales Landing Page">
+                        </div>
+                        <div class="hlfPic pl-10 pr-10 flex flex-column">
+                            <img class="marelandImg2 mb-15" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707433471/MaReLand-pontile-landing_gtcl5h.png" alt="MaReLand Pontile Landing Page">
+                            <img class="marelandImg1" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707433450/MaReLand-jungle-landing_ttkujs.png" alt="MaReLand Jungle Landing Page">
+                        </div>
+                    </div>
                 </div>
-                <a class="buttonLanding" id="reclamationBtn" href="./mareland/index/reclamations-page.html">Learn More ...</a>
+            </section>
+        
+            <section id="rclmtnSect" class="pb-40">
+                <div id="rclmtnsCont" class="py-20 px-30">
+                    <div id="rclmtnPicsSide">
+                        <div id="rclmtnBigPic">
+                            <img id="pic_6" class="bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707494191/WJFI4146_gubjkk.jpg" alt="MaReLand Boat Jungle">
+                            <img id="pic_3" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707494405/MaReLand-boat-airplane-landing.png_o1ahkw.jpg" alt="MaReLand Boat Airplane">
+                            <img id="pic_2" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707494191/PHOTO-2023-08-07-11-21-01_1_bigjla.jpg" alt="MaReland Drying Fish">
+                            <img id="pic_4" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707494190/EKYD9542_nstizh.jpg" alt="MaReLand Fishermen">
+                            <img id="pic_5" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707494191/boats_pf3ya8.jpg" alt="MaReLand Boat Sunset">
+                            <img id="pic_8" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707495009/Mareland_boats_pontile_uqoa29.jpg" alt="MaReLand Boats">
+                            <img id="pic_1" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto,q_100/v1707494406/MaReLand-Seppie-landing.png_rqqncg.jpg" alt="MaReLand Seppie Landing">
+                            <img id="pic_7" class="hide bigPicShow" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707494405/MaReLand-construction-landing.png_zdckxf.jpg" alt="MaReland Construction Started">
+                        </div>
+                        <div id="rclmtnPicSelector" class="col-10">
+                            <i class="fas fa-chevron-left scroll-button left hide"></i>
+                            <div class="p-10 col-10" id="scroller">
+                                <img id="pic_6" class="smPicSelector col-2 m-5 picClicked" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707494191/WJFI4146_gubjkk.jpg" alt="MaReLand Boat Jungle">
+                                <img id="pic_3" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707494405/MaReLand-boat-airplane-landing.png_o1ahkw.jpg" alt="MaReLand Boat Airplane">
+                                <img id="pic_2" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707494191/PHOTO-2023-08-07-11-21-01_1_bigjla.jpg" alt="MaReland Drying Fish">
+                                <img id="pic_4" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707494190/EKYD9542_nstizh.jpg" alt="MaReLand Fishermen">
+                                <img id="pic_5" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707494191/boats_pf3ya8.jpg" alt="MaReLand Boat Sunset">
+                                <img id="pic_8" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707495009/Mareland_boats_pontile_uqoa29.jpg" alt="MaReLand Boats">
+                                <img id="pic_1" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto,q_100/v1707494406/MaReLand-Seppie-landing.png_rqqncg.jpg" alt="MaReLand Seppie Landing">
+                                <img id="pic_7" class="smPicSelector col-2 m-5" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707494405/MaReLand-construction-landing.png_zdckxf.jpg" alt="MaReland Construction Started">
+                            </div>
+                            <i class="fas fa-chevron-right scroll-button right"></i>
+                        </div>
+                    </div>
+                    <div class="barSep"></div>
+                    <div id="rclmtnDescr" class="">
+                        <p class="sctnHpTitles text-bold">Reclamations</p>
+                        <div id="rclmtnDescrText" class="fontSize17">
+                            <p class="pr-10">
+                                “Reclamations” is a blog facilitated by the MaReLand project. The website sets to be a free
+                                networking platform bringing together researchers, activists, and sea aficionados interested in land
+                                reclamation processes. It is a place where everybody can share field stories, ideas, findings,
+                                perspectives, and ongoing activities on related topics in Malaysia, the broader Asian region, and
+                                beyond. The Reclamations blog also provides a space where to quickly publish beyond academic
+                                venues.
+                            </p>
+        
+                        </div>
+                        <a class="buttonLanding" id="reclamationBtn" href="./mareland/index/reclamations-page.html">Learn More ...</a>
+                    </div>
+                </div>
+                <img id="decoboat" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707529575/MaReLand-boat-decoration-landing.png_g9jqqk.png" alt="MaReLand boat decoration landing">
+            </section>
+        </main>
+
+
+        <footer>
+            <div class="flex flex-column">
+                <div id="logoFooter" class="flex col-12">
+                    <img class="" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707521857/EN_FundedbytheEU_RGB_WHITE_Outline_1_g2kefz.png" alt="EU Logo">
+                    <p class="textWhite fontSize16 col-6">Funded by the European Union. Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.</p>
+                    <div class="textWhite pb-20">
+                        <img id="olomouc" class="" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1708961760/HostedByLogo_va3jrt.png" alt="Uni Logo">
+                    </div>
+                </div>
+                <p class="fontSize13 textWhite col-12 text-center"> Website created and designed by Marco Colucci</p>
+
             </div>
-        </div>
-        <img id="decoboat" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1707529575/MaReLand-boat-decoration-landing.png_g9jqqk.png" alt="MaReLand boat decoration landing">
-    </section>
+        </footer>
 
-    <footer>
-        <div class="flex flex-column">
-            <div id="logoFooter" class="flex">
-                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1707521857/EN_FundedbytheEU_RGB_WHITE_Outline_1_g2kefz.png" alt="EU Logo">
-                <p class="textWhite">Funded by the European Union. Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.</p>
-                <img id="olomouc" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1707521867/Uni_white_logo_360_x_100_px_1_lqqtvt.png" alt="Uni Logo">
-            </div>
-            <p class="fontSize13 textWhite"> Website created and designed by Marco Colucci</p>
+        <!-- Script -->
+        <script defer type="text/javascript " src="./mareland/script/main.js"></script>
+        <script defer type="text/javascript " src="./mareland/index/components/coming-soon/coming_soon.markup.js"></script>
 
-        </div>
-    </footer>
-
-
-      
-      
-
-
-
-
-
-
-    <!-- Bootstrap -->
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous ">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
-    <link rel="stylesheet " href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css "> -->
-    <!-- Script -->
-    <script defer type="text/javascript " src="./mareland/script/main.js"></script>
-    <script defer type="text/javascript " src="./mareland/index/components/coming-soon/coming_soon.markup.js"></script>
-
-</body>
+    </body>
 
 </html>

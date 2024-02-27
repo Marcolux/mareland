@@ -9,19 +9,22 @@
     <meta name="description" content="MaReLand">
 
     <!-- Style -->
-    <link rel="stylesheet" type="text/css" href="../style/style.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../style/settings.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../style/common-style.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="./components/coming-soon/coming-soon.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../style/settings/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../style/settings/layout.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../style/settings/fonts-sizing.css" media="screen" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <link rel="stylesheet" type="text/css" href="../style/homepage/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../style/common_style/common-style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../style/reclamations/reclamations.css" media="screen" />
+    <!-- <link rel="stylesheet" type="text/css" href="../style/about/about.css" media="screen" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./components/coming-soon/coming-soon.css" media="screen" /> -->
+
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 
     <!-- Logo -->
+    <link rel="icon" type="ico" sizes="32x32" href="/mareland/images/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/mareland/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/mareland/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/mareland/images/favicon/favicon-16x16.png">
@@ -35,12 +38,12 @@
 
     <nav class="navBar flex biggerScreen">
         <div id="navBgScn">
-            <a href="../../homePage.html" id="logoNav">
-                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_bgremoval,o_100,q_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
+            <a href="../../homePage.html" class="logoNav">
+                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto,e_bgremoval,o_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
             </a>
             <a href="./about-page.html">About</a>
-            <a href="./mareland-page.html">Mareland</a>
-            <a href="./reclamations-page.html">Reclamations</a>
+            <a href="./mareland-page.html">MaReLand</a>
+            <a class="textSand" href="./reclamations-page.html">Reclamations</a>
         </div>
         
         <div class="hambContainer">
@@ -52,50 +55,64 @@
         </div>
     
         <div id="navMenu" class="hide pl-3 pr-4">
-            <a href="../../homePage.html" id="logoNav">
-                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_bgremoval,o_100,q_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
+            <a href="../../homePage.html" class="logoNav">
+                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto,e_bgremoval,o_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
             </a>
             <a href="./about-page.html">About</a>
-            <a href="./mareland-page.html">Mareland</a>
+            <a href="./mareland-page.html">MaReLand</a>
             <a href="./reclamations-page.html">Reclamations</a>
         </div>
         
     </nav>
 
-    <section id="reclamationsPageSec" class="col-12">
-       
-        <div class="" id="">
-            Reclamations Page
-        </div>
-    </section>
+    <main>
+        <section id="reclamationsPageSec" class="p-30">
+           
+            <div class="flex flex-column col-12" id="">
+                <p class="fontSize20 textBlue text-bold">
+                    Welcome to Reclamations: The MaReLand Blog!
+                </p>
 
+                <p class="fontSize17">
+                    <span class="textBlue">“Reclamations”</span> is a blog facilitated by the MaReLand project. 
+                    <br>The website sets to be a free
+                    networking platform bringing together researchers, activists, and sea aficionados interested in land
+                    reclamation processes. It is a place where everybody can share field stories, ideas, findings,
+                    perspectives, and ongoing activities on related topics in Malaysia, the broader Asian region, and
+                    beyond. The Reclamations blog also provides a space where to quickly publish beyond academic
+                    venues.
+                </p>
+
+                <p class="fontSize17">
+                    For further information and details on how to submit a post, please contact the editor at
+                    pierpa.degios@zoho.com or pierpaolo.degiosa@upol.cz.
+                </p>
+            
+            </div>
+        </section>
+    </main>
 
 
     <footer>
         <div class="flex flex-column">
-            <div id="logoFooter" class=" flex">
-                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1707521857/EN_FundedbytheEU_RGB_WHITE_Outline_1_g2kefz.png" alt="EU Logo">
-                <p class="textWhite">Funded by the European Union. Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.</p>
-                <img id="olomouc" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1707521867/Uni_white_logo_360_x_100_px_1_lqqtvt.png" alt="Uni Logo">
+            <div id="logoFooter" class="flex col-12">
+                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707521857/EN_FundedbytheEU_RGB_WHITE_Outline_1_g2kefz.png" alt="EU Logo">
+                <p class="textWhite fontSize16 col-6">Funded by the European Union. Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.</p>
+                <div class="textWhite pb-20">
+                    <img id="olomouc" class="" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1708961760/HostedByLogo_va3jrt.png" alt="Uni Logo">
+                </div>
             </div>
-            <p class="fontSize13 textWhite"> Website created and designed by Marco Colucci</p>
-
+            <p class="fontSize13 textWhite col-12 text-center"> Website created and designed by Marco Colucci</p>
+    
         </div>
     </footer>
 
-
-      
-      
-    <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous ">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
-    <link rel="stylesheet " href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css ">
+    
+    
     <!-- Script -->
     <script defer type="text/javascript " src="../script/main.js"></script>
     <script defer type="text/javascript " src="./components/coming-soon/coming_soon.markup.js"></script>
-
+    
 </body>
 
 </html>

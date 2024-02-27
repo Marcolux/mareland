@@ -7,9 +7,6 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     }
     return to.concat(ar || Array.prototype.slice.call(from));
 };
-console.log('hello world');
-console.log('all the time');
-// import '../index/components/coming-soon/coming_soon.markup'
 var hambMenu = document.querySelector('.hamburger-menu');
 var navMenu = document.getElementById('navMenu');
 var navBar = document.querySelector('.navBar');
@@ -21,7 +18,6 @@ hambMenu.addEventListener('click', function () {
     navBar.classList.toggle('expand');
 });
 var navBarAdjToScreen = function () {
-    console.log('here');
     if (window.innerWidth < 505 && navBar.classList.contains('biggerScreen')) {
         navBar.classList.add('mobileView');
         navBar.classList.remove('biggerScreen');
@@ -81,12 +77,11 @@ var carouselLogic = function (selector, display) {
     });
     function scrollByPicWidth(direction) {
         var width = selector[1].offsetWidth;
-        console.log(width);
         if (direction === 'right') {
-            pictureContainer.scrollLeft += width + 4;
+            pictureContainer.scrollLeft += width;
         }
         else {
-            pictureContainer.scrollLeft -= width - 4;
+            pictureContainer.scrollLeft -= width;
         }
     }
 };
@@ -99,4 +94,3 @@ if (display && selector) {
 }
 window.addEventListener('resize', navBarAdjToScreen);
 navBarAdjToScreen();
-console.log("tsc running 10");

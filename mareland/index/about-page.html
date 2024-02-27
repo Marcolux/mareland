@@ -9,11 +9,14 @@
     <meta name="description" content="MaReLand">
 
     <!-- Style -->
-    <link rel="stylesheet" type="text/css" href="../style/style.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../style/settings.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../style/common-style.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../style/about.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="./components/coming-soon/coming-soon.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../style/settings/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../style/settings/layout.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../style/settings/fonts-sizing.css" media="screen" />
+
+    <link rel="stylesheet" type="text/css" href="../style/homepage/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../style/common_style/common-style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../style/about/about.css" media="screen" />
+    <!-- <link rel="stylesheet" type="text/css" href="./components/coming-soon/coming-soon.css" media="screen" /> -->
 
     <!-- Bootstrap CSS -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
@@ -23,7 +26,8 @@
 
 
     <!-- Logo -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/mareland/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="ico" sizes="32x32" href="/mareland/images/favicon/favicon.ico">
+    
     <link rel="icon" type="image/png" sizes="32x32" href="/mareland/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/mareland/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/mareland/images/favicon/site.webmanifest">
@@ -36,11 +40,11 @@
 
     <nav class="navBar flex biggerScreen">
         <div id="navBgScn">
-            <a href="../../homePage.html" id="logoNav">
-                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_bgremoval,o_100,q_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
+            <a href="../../homePage.html" class="logoNav">
+                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto,e_bgremoval,o_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
             </a>
-            <a href="./about-page.html">About</a>
-            <a href="./mareland-page.html">Mareland</a>
+            <a  class="textSand" href="./about-page.html">About</a>
+            <a href="./mareland-page.html">MaReLand</a>
             <a href="./reclamations-page.html">Reclamations</a>
         </div>
         
@@ -53,56 +57,74 @@
         </div>
     
         <div id="navMenu" class="hide pl-3 pr-4">
-            <a href="../../homePage.html" id="logoNav">
-                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_bgremoval,o_100,q_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
+            <a href="../../homePage.html" class="logoNav">
+                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto,e_bgremoval,o_100/v1707414432/mareland_logo_top_nav.png" alt="MaReLand round logo">
             </a>
             <a href="./about-page.html">About</a>
-            <a href="./mareland-page.html">Mareland</a>
+            <a href="./mareland-page.html">MaReLand</a>
             <a href="./reclamations-page.html">Reclamations</a>
         </div>
         
     </nav>
+    <main>
+        
+            <section id="aboutPageSec" class=" ">
+               
+                <div class="flex flex-column flex-alignItems-start flex-justifyContent-center p-30">
+                    <div class="col-12 flex flex-justifyContent-center">
+                        <div class="fontSize18 aboutText col-10 p-30">
+                            <img id="pierpaoloPic" class="mb-20 mr-20" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1708019605/Opzione_1_Foto_About-fotor-20240215113935_y6ubwr.jpg" alt="Pierpaolo DeGiosa Mareland">
+                            <p class="mt-10 mb-0">
+                                <span class="fontSize20 sctnHpTitles">Pierpaolo De Giosa</span> was born and raised in the coastal city of Bari, southern Italy. His soul belongs
+                                to the sea.
+                            </p>
+                            <p class="ml-15 mt-10 mb-0">
+                                Pierpaolo is a sociocultural anthropologist and hard-working ethnographer with broad fieldwork
+                                experience in Malaysia, Indonesia, and Timor-Leste. His research interests include urban and
+                                political anthropology, critical heritage studies, space and place-making practices, and Southeast
+                                Asian studies.
+                            </p>
+                            <p class="ml-15 mt-10 mb-0">
+                                Pierpaolo received a BA in International and Diplomatic Relations from the University of Napoli
+                                L’Orientale (Italy) in 2008 and a Research MA in Asian Studies from Leiden University (The
+                                Netherlands) in 2011. He obtained his PhD in Social Anthropology from Martin Luther University
+                                of Halle-Wittenberg (Germany) in 2016 while working at the Max Planck Institute for Social
+                                Anthropology as member of the research group “The Global Political Economy of Cultural
+                                Heritage”. Based on ethnographic fieldwork carried out in the Malaysian historical city par
+                                excellence, his PhD project explored the politics of heritage of Melaka.
+                            </p>
+        
+                            <p class="ml-15 mt-10 mb-0">
+                                His <a href=" https://www.aup.nl/en/book/9789463725026/world-heritage-and-urban-politics-in-melaka-malaysia" target="_blank">first book</a> “World Heritage and Urban Politics in Melaka, Malaysia: A Cityscape Below the
+                                Winds” was published by Amsterdam University Press in 2021.
+                            </p>
+                        
+                            <p class="ml-15 mt-10 mb-0">
+                                Currently, Pierpaolo is a Marie Skłodowska-Curie Postdoctoral Fellow at the Department of Asian
+                                Studies of Palacký University Olomouc, Czech Republic. For the MaReLand project he explores
+                                land reclamation processes in Malaysia, the workings of sea-related environmentalism and activism, and
+                                the politics of urban planning and compensation along the littoral.
+                            </p>
+                            <p class="ml-15 mt-10 mb-0">You can get in touch with him via pierpa.degios@zoho.com or pierpaolo.degiosa@upol.cz.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <section id="aboutPageSec" class="col-12">
-       
-        <div class="" id="">
-            <img id="pierpaoloPic" class="m-20" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1707780612/PierpaoloDeGiosa-mareland_1cr_wwumft.png" alt="Pierpaolo DeGiosa Mareland">
-            <p class="fontSize16">
-                Pierpaolo De Giosa was born and raised in the seaside city of Bari, southern Italy. His soul belongs
-                to the sea.
-                Pierpaolo is a sociocultural anthropologist and hard-working ethnographer with broad fieldwork
-                experience in Malaysia, Indonesia, and Timor-Leste. His research interests include urban and
-                political anthropology, critical heritage studies, space and place-making practices, and Southeast
-                Asian studies.
-                Pierpaolo received a BA in International and Diplomatic Relations from the University of Napoli
-                L’Orientale (Italy) in 2008 and a Research MA in Asian Studies from Leiden University (The
-                Netherlands) in 2011. He completed his PhD in Social Anthropology from Martin Luther University
-                of Halle-Wittenberg (Germany) in 2016 while working at the Max Planck Institute for Social
-                Anthropology as member of the research group “The Global Political Economy of Cultural
-                Heritage”. Based on ethnographic fieldwork carried out in the Malaysian historical city par
-                excellence, his PhD project explored the politics of heritage of Melaka.
-                His first book “World Heritage and Urban Politics in Melaka, Malaysia: A Cityscape Below the
-                Winds” was published by Amsterdam University Press in 2021.
-                https://www.aup.nl/en/book/9789463725026/world-heritage-and-urban-politics-in-melaka-malaysia
-                Currently, Pierpaolo is a Marie Skłodowska-Curie Postdoctoral Fellow in the Department of Asian
-                Studies of Palacký University Olomouc, Czech Republic. For the MaReLand project he explores
-                land reclamation processes in Malaysia, the raise of sea-related environmentalism and activism, and
-                the politics of urban planning and compensation along the littoral.
-                You can get in touch with him via pierpa.degios@zoho.com or pierpaolo.degiosa@upol.cz.
-            </p>
-        </div>
-    </section>
+    </main>
 
 
 
     <footer>
         <div class="flex flex-column">
-            <div id="logoFooter" class=" flex">
-                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1707521857/EN_FundedbytheEU_RGB_WHITE_Outline_1_g2kefz.png" alt="EU Logo">
-                <p class="textWhite">Funded by the European Union. Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.</p>
-                <img id="olomouc" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1707521867/Uni_white_logo_360_x_100_px_1_lqqtvt.png" alt="Uni Logo">
+            <div id="logoFooter" class="flex col-12">
+                <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1707521857/EN_FundedbytheEU_RGB_WHITE_Outline_1_g2kefz.png" alt="EU Logo">
+                <p class="textWhite fontSize16 col-6">Funded by the European Union. Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.</p>
+                <div class="textWhite pb-20">
+                    <img id="olomouc" class="" src="https://res.cloudinary.com/drdrs6pdq/image/upload/f_auto,q_auto/v1708961760/HostedByLogo_va3jrt.png" alt="Uni Logo">
+                </div>
             </div>
-            <p class="fontSize13 textWhite"> Website created and designed by Marco Colucci</p>
+            <p class="fontSize13 textWhite col-12 text-center"> Website created and designed by Marco Colucci</p>
 
         </div>
     </footer>

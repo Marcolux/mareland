@@ -1,0 +1,127 @@
+#mainMareland {
+  background-color: #ebe4dc;
+  margin-top: 13.3vh !important;
+}
+
+#mainMareland .sctnHpTitles {
+  font-family: 'Prata';
+}
+
+#mainMareland #MarelandPageSec {
+  background-color: #ffffffb0;
+  border: 2px solid #CDAA7F;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#mainMareland #MarelandPageSec .marelandPicTextSec {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+#mainMareland #MarelandPageSec .marelandPicTextSec img {
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+#mainMareland #MarelandPageSec .marelandPicTextSec img.logoPic {
+  max-width: 200px !important;
+}
+
+#mainMareland #MarelandPageSec .marelandPicTextSec p {
+  text-align: justify;
+  text-justify: newspaper;
+}
+
+#mainMareland #MarelandPageSec .marelandPicTextSec#wikiPic img {
+  max-height: 320px;
+}
+
+#mainMareland #MarelandPageSec .marelandPicTextSec#wikiPic sub {
+  text-align: justify;
+  text-justify: newspaper;
+  word-wrap: break-word;
+}
+
+#mainMareland #MarelandPageSec img.bannersPic {
+  width: 100% !important;
+  max-height: 250px;
+  aspect-ratio: 2/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  #MarelandPageSec .marelandPicTextSec {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #MarelandPageSec .marelandPicTextSec#wikiPic img {
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 50vh !important;
+    margin-left: 0px !important;
+    margin-top: 20px;
+  }
+  #MarelandPageSec .marelandPicTextSec img {
+    width: auto !important;
+    aspect-ratio: 1/1;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 0px;
+  }
+  #MarelandPageSec .marelandPicTextSec p {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #mainMareland {
+    margin-top: 0vh !important;
+    padding: 0px !important;
+  }
+  #mainMareland #MarelandPageSec {
+    background-color: #ffffffb0;
+    border: none !important;
+    margin-top: 0px !important;
+  }
+  #mainMareland #MarelandPageSec .sctnHpTitles {
+    margin-right: 5px !important;
+  }
+  #mainMareland #MarelandPageSec .marelandPicTextSec {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #mainMareland #MarelandPageSec .marelandPicTextSec div {
+    width: 100% !important;
+  }
+  #mainMareland #MarelandPageSec .marelandPicTextSec#wikiPic img {
+    width: 100% !important;
+    margin: 10px !important;
+  }
+  #mainMareland #MarelandPageSec .marelandPicTextSec p {
+    padding: 20px 0px !important;
+    width: 100% !important;
+    text-align: start !important;
+    letter-spacing: 0px;
+  }
+  #mainMareland #MarelandPageSec .bottomInfo p {
+    padding: 0px !important;
+  }
+}
+/*# sourceMappingURL=mareland.css.map */

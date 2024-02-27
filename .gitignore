@@ -1,3 +1,5 @@
 node_modules
 common-style.scss
 settings.scss
+layout.scss
+fonts-sizing.scss
