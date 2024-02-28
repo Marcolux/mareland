@@ -1,0 +1,67 @@
+#aboutPageSec{
+    padding-top: 13.3vh;
+    background-color: #ebe4dc;
+    display: flex;
+    align-items: center;
+    #pierpaoloPic{
+        height: 250px;
+        // border: 2px solid #CDAA7F;
+        background: #D9D9D9;
+        box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.25);
+        z-index: 999;
+        object-fit: cover;
+        float: left;
+    }
+    .aboutText{
+        border: 2px solid #CDAA7F;
+        background: rgba(255, 255, 255, 0.691);
+        text-align: justify;
+        text-justify: newspaper;
+        .sctnHpTitles{
+            font-family: 'Prata' ;
+            font-weight: 600;
+        }
+        a{
+            color: #CDAA7F !important;
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .aboutText {
+        border: 0px !important;
+        p{
+            margin-left: 0px !important;
+        }
+    }
+}
+@media only screen and (max-width: 700px) {
+    #aboutPageSec{
+        padding-top: 0vh;
+        #pierpaoloPic{
+            max-width: 100% !important;
+            // position: fixed;
+            width: 100%;
+            // top: 0px;
+            // left: 0px;
+            border: 1px solid #0F4C81;
+            z-index: 1 !important;
+        }
+        >div{
+            padding: 10px !important;
+        }
+        .aboutText {
+            // border: 0px !important;
+            // margin-top: 280px;
+            padding: 15px !important;
+            width: 100% !important;
+            z-index: 2;
+            background-color: #ffffff;
+            p{
+                margin-left: 0px !important;
+                text-align: start !important;
+            }
+        }
+    }
+}

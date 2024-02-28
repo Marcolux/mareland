@@ -1,0 +1,10 @@
+#reclamationsPageSec {
+  margin-top: 13.3vh;
+}
+
+@media only screen and (max-width: 700px) {
+  #reclamationsPageSec {
+    margin-top: 0vh !important;
+  }
+}
+/*# sourceMappingURL=reclamations.css.map */
