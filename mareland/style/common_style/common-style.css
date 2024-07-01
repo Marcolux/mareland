@@ -78,4 +78,9 @@ html {
   border-radius: 10px;
   border: 1px solid #ffffff;
 }
+
+.webcraftLink {
+  color: #CDAA7F;
+  text-decoration: none;
+}
 /*# sourceMappingURL=common-style.css.map */
